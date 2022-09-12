@@ -58,6 +58,25 @@
             border-radius: 0 0 20px 20px; /* Va en orden de las manecillas del reloj comenzando por el borde arriba izquierdo */
         }
 
+        .points {
+            width: 100%;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+        }
+        .points p{
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: var(--very-light-pink);
+            margin:auto 12px;
+        }
+
+        .points p:hover{
+            cursor: pointer;
+            background-color: var(--hospital-green);
+        }
+
         .product-info {
             margin: 24px 24px 0px 24px;
         }
@@ -116,6 +135,11 @@
             <img src="./icons/icon_close.png" alt="close">
         </div>
         <img src="https://images.pexels.com/photos/4790274/pexels-photo-4790274.jpeg?auto=compress&cs=tinysrgb&w=400" alt="parlante">
+        <div class="points">
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
         <div class="product-info">
             <p>$100.00</p>
             <p>Parlante alexa</p>
